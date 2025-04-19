@@ -3,3 +3,5 @@ class LlbFields():    # --------- 现金流量表
     buy_fixed_assets = ['购建固定资产、无形资产和其他长期资产所支付的现金']
     invest_money = ['投资所支付的现金']
     cash_inflow = ['筹资活动现金流入小计']
+    loan = ['取得借款收到的现金']
+    net_cash_flows_financing_activities =['筹资活动产生的现金流量净额']

@@ -4,3 +4,4 @@ class FzbFields:
     monetary_capital = ['货币资金']
     accounts_receivable = ['应收账款']
     inventory = ['存货']
+    goodwill = ['商誉']
