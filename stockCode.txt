@@ -3773,3 +3773,4 @@
 {"SECNAME": "鲁信创投", "SECCODE": "600783", "f_kind": "综合", "s_kind": "综合", "t_kind": "综合"}
 {"SECNAME": "鲁银投资", "SECCODE": "600784", "f_kind": "综合", "s_kind": "综合", "t_kind": "综合"}
 {"SECNAME": "悦达投资", "SECCODE": "600805", "f_kind": "综合", "s_kind": "综合", "t_kind": "综合"}
+{"SECNAME": "中国电信", "SECCODE": "601728", "f_kind": "化工", "s_kind": "橡胶", "t_kind": "轮胎"}

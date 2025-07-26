@@ -3,8 +3,8 @@
 __author__ = "Gallen_qiu"
 import pymongo
 from pymongo.collection import Collection
-class Report_dealer:
 
+class Report_dealer:
     def __init__(self,code):
         # self.scode = input("输入股票代码：")
         self.scode = str(code)
@@ -577,7 +577,7 @@ class Report_dealer:
         self.incomeStm()
         self.cashFlowStm()
         self.last12 = self.getData_n12(self.scode)[0]
-        return self.balanceS ,self.incomeS,self.cashFlowS,self.last12
+        return self.balanceS ,self.incomeS, self.cashFlowS, self.last12
 
         # return self.balanceS
 
@@ -587,5 +587,3 @@ if __name__ == '__main__':
     # Rd.incomeStm()
     r=Rd.scheduler()
     print(r)
-
-
