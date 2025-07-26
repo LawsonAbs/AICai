@@ -5,3 +5,4 @@ class FzbFields:
     accounts_receivable = ['应收账款']
     inventory = ['存货']
     goodwill = ['商誉']
+    long_debt = ['长期借款']

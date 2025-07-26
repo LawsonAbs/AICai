@@ -58,6 +58,9 @@ class SinaFinancial():
         for line in lines:
             stock_info = json.loads(line)
             scode = stock_info['SECCODE']
+            sname = stock_info['SECNAME']
+            if sname.startswith("*") or sname.startswith("ST"):
+                continue
             # report_count = 50 # 初始化为一个比较大的数，10年报表足够用了
             page = 1
             num = 10
@@ -109,9 +112,9 @@ class SinaFinancial():
 
 if __name__ == '__main__':
     start_time=time.time()
-    stock_path = "./stockCode.json"
+    stock_path = "./sample.json"
     sina = SinaFinancial()
     # a = sina.url_balance.format("12","2014")
     # print(a)
     # print(sina.url_balance)
-    sina.scheduler(stock_path, report_count = 50)
+    sina.scheduler(stock_path, report_count = 40)
